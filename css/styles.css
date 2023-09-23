@@ -147,7 +147,7 @@ a {
 /*==========TEAM==========*/
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -164,7 +164,9 @@ a {
     background-color: #FFFFFF;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-img {}
 
