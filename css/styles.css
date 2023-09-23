@@ -13,7 +13,6 @@ a {
 }
 
 .visually-hidden {
-    position: absolute;
         overflow: hidden;
         clip: rect(0, 0, 0, 0);
         white-space: nowrap;
@@ -110,7 +109,8 @@ a {
     cursor: pointer;
 }
 
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
     color: #404BBF;
     background: #404BBF;
 }
@@ -147,7 +147,7 @@ a {
 /*==========TEAM==========*/
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title {
